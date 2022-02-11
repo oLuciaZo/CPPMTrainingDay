@@ -14,3 +14,24 @@ Document and Materials
 <a href="https://www.youtube.com/c/ABCNetworking/playlists?view=50&sort=dd&shelf_id=8">- Clearpass Video Tutorial</a> 
 
 <a href="https://www.arubanetworks.com/techdocs/ClearPass/6.7/Aruba_DeployGd_HTML/Default.htm#About%20ClearPass/About_this_guide.htm%3FTocPath%3DAbout%2520ClearPass%7C_____1">- Clearpass Document Guide</a> 
+
+
+Group Arrangement
+Group1-4 IT Green
+Group5-8 SIS
+Group9-12 VST
+
+LAB Switch Server
+Group 1-4  10.5.255.50 (IT Green)
+Group 5-8  10.5.255.51 (SIS)
+Group 9-12 10.5.255.52 (VST)
+
+
+Clearpass Server
+Group 1-4  10.20.22.201 (IT Green)
+Group 5-8  10.20.22.202 (SIS)
+Group 9-12 10.20.22.203 (VST)
+
+
+
+
