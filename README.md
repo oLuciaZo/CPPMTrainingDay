@@ -1,5 +1,17 @@
 # CPPMTrainingDay
 
+class ipv4 "IP-Any-Any"<BR>
+10 match ip 0.0.0.0 255.255.255.255 0.0.0.0 255.255.255.255<BR>
+exit<BR>
+policy user "DS-User"<BR>
+10 class ipv4 "IP-Any-Any" action permit<BR>
+exit<BR>
+aaa authorization user-role name "DS-User-Profiler-Role"<BR>
+policy "DS-User"<BR>
+tunneled-node-server-redirect secondary-role "Profiler"<BR>
+exit<BR>
+
+
 ![image](https://user-images.githubusercontent.com/18340935/153616592-69444067-142a-44d6-af08-1e4e55f6f607.png)
 
 
